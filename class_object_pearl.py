@@ -13,6 +13,7 @@ print(S1.name)
 
 
 class school:
+    #parameterized constructor:
     def __init__(self,fullname,roll):
         self.roll = roll
         self.name = fullname
@@ -24,3 +25,7 @@ print(s1.name,s1.roll)
 
 
 # attributes = data stored,variables
+
+#default constructor:
+ # def __init__(self):
+  #    pass
